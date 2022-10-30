@@ -27,6 +27,7 @@ hgroup{
   font-size: 15px;
 }
 .pic{
+  width: auto;
   text-align: center;
   margin: 0;
   height: 220px;
