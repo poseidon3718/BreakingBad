@@ -6,10 +6,6 @@
     font-style: normal;
 }
 @import url('style.css') screen;
-html{
-  width: auto;
-  height: auto;
-}
 .text01{
   font-family: 'Alkalami', serif;
   text-align: center;
