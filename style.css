@@ -6,6 +6,10 @@
     font-style: normal;
 }
 @import url('style.css') screen;
+html{
+  width: auto;
+  height: auto;
+}
 .text01{
   font-family: 'Alkalami', serif;
   text-align: center;
@@ -27,7 +31,6 @@ hgroup{
   font-size: 15px;
 }
 .pic{
-  width: 100%;
   text-align: center;
   margin: 0;
   height: 220px;
