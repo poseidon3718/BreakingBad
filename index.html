@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME-HEISENBERG</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkalami&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+      <div class="cotainer">
+        <hgroup>
+          <div class="header">
+            <div class="subtitle">
+              <small><b>장건희 최지웅 김유준</b></small>
+            </div>
+            <div class="pic" style="position: relative; z-index: 2">
+              <a href="1.html"><img src="Walter.jpg" width="190px"></a>
+            </div>
+          </div>
+          <div class="title">
+            <h1 class="text01">
+              HEISENBERG
+            </h1>
+          </div>
+        </hgroup>
+        <div class="wrapper">
+          <div class="search-container">
+            <input type="search" id="search-input" placeholder="Type..."/>
+            <button id="search">Search</button>
+          </div>
+          <div id="buttons">
+            <button class="button-value" onclick="filterProduct('all')">All</button>
+            <button class="button-value" onclick="filterProduct('직선형')">
+              직선형
+            </button>
+            <button class="button-value" onclick="filterProduct('평면삼각형')">
+              평면삼각형
+            </button>
+            <button class="button-value" onclick="filterProduct('정사면체형')">
+              정사면체형
+            </button>
+            <button class="button-value" onclick="filterProduct('사면체형')">
+              사면체형
+            </button>
+            <button class="button-value" onclick="filterProduct('삼각뿔형')">
+              삼각뿔형
+            </button>
+            <button class="button-value" onclick="filterProduct('굽은형')">
+              굽은형
+            </button>
+          </div>
+          <div id="products"></div>
+        </div>
+      </div>
+  <script src="script.js"></script>
+  </body>
+</html>

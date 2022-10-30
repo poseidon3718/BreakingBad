@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+@font-face {
+    font-family: 'YUniverse-B';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_yuniverse@1.0/YUniverse-B.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('style.css') screen;
+.text01{
+  font-family: 'Alkalami', serif;
+  text-align: center;
+  font-size: 75px;
+  color: black;
+}
+hgroup{
+  text-align: center;
+}
+.title{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.subtitle{
+  font-family: 'YUniverse-B', sans-serif;
+  text-align: right;
+  margin: 0;
+  font-size: 15px;
+}
+.pic{
+  text-align: center;
+  margin: 0;
+  height: 220px;
+}
+body{
+  margin: 0;
+  padding:0;
+}
+.cotainer {
+  width: 100%;
+  margin: 0 auto;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; content: ;
+}
+.cotainer:before{
+  position: absolute;
+  width: 100%
+}
+.box h1{
+  font-weight: normal;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+  }
+  .wrapper {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .search-container {
+    margin-bottom: 10px;
+  }
+  .search-container input {
+    border-radius: 20px 20px 20px 20px;
+    border-color: black;
+    width: 45%;
+    border-bottom: 2px solid #110f29;
+    padding: 1em 1.5em;
+  }
+  .search-container input:focus {
+    border-color: black;
+    border-bottom-color: gray;
+  }
+  .search-container button {
+    padding: 1em 2em;
+    margin-left: 1em;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 0.5em;
+  }
+  .button-value {
+    border: 2px solid black;
+    padding: 1em 2.2em;
+    border-radius: 3em;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+  }
+  .active {
+    background-color: black;
+    color: white;
+  }
+  #products {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 1.5em;
+    padding: 2em 0;
+  }
+  .card {
+    text-align: center;
+    background-color: #ffffff;
+    max-width: 18em;
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 1em 2em 2.5em rgba(1, 2, 68, 0.08);
+  }
+  .image-container {
+    text-align: center;
+  }
+  img {
+    max-width: 100%;
+    object-fit: contain;
+    height: 15em;
+  }
+  .container {
+    padding-top: 1em;
+    color: #110f29;
+  }
+  .container h5 {
+    font-weight: 500;
+  }
+  .hide {
+    display: none;
+  }
+  @media screen and (max-width: 720px) {
+    img {
+      max-width: 100%;
+      object-fit: contain;
+      height: 10em;
+    }
+    .card {
+      max-width: 10em;
+      margin-top: 1em;
+    }
+    #products {
+      grid-template-columns: auto auto auto;
+      grid-column-gap: 1em;
+    }
+  }
