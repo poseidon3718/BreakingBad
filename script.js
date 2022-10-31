@@ -288,7 +288,7 @@ let products = {
       ronaldo: "무극성 분자",
       messi: "공유 전자쌍: 2",
       son: "비공유 전자쌍: 6",
-      neymar6: "δ⁺: Be, δ⁻: C",
+      neymar6: "δ⁺: Be, δ⁻: Cl",
     },
     {
       productName: "SiCl4",
