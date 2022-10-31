@@ -193,7 +193,7 @@ let products = {
     {
       productName: "CH2Cl2",
       category: "사면체형",
-      price: "결합각: 약 120°",
+      price: "결합각: 약 109.5°",
       image: "CH2Cl2.png",
       ronaldo: "극성 분자",
       messi: "공유 전자쌍: 4",
