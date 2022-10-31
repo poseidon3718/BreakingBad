@@ -73,7 +73,7 @@ let products = {
     {
       productName: "H2O2",
       category: "굽은형",
-      price: "결합각: ",
+      price: "결합각: ∠H-O-H: 111.5°, ∠O-O-H: 94.8°",
       image: "H2O2.png",
       ronaldo: "극성 분자",
       messi: "공유 전자쌍: 3",
